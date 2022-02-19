@@ -124,7 +124,7 @@ ul{
 }
 
 .concept{
-    padding-top: 150px;
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -239,8 +239,24 @@ ul{
 
 .design-slider{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
+
+.article__box{
+   max-width: 590px;
+   margin: 100px auto;
+   padding: 0 10px;
+   display: flex;
+   gap: 60px;
+}
+.article__box-column{
+    width: 255px;
+}
+.article__text{
+    margin-bottom: 15px;
+}
+ 
 
 
 
